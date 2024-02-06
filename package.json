@@ -2,6 +2,7 @@
   "name": "cog-robo-2",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://alec-o-mago.github.io/cog-robo",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
