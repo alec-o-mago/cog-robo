@@ -93,8 +93,8 @@ export default function Questionario() {
     <>
     
     <main className="flex min-h-screen flex-col items-center justify-between bg-slate-900 overflow-y-auto">
-    { questoes && questoes.map((q, index) => ( (index == questaoAtual) &&
-      <div key={q.id} className="w-[1728px] h-[1068px] relative bg-slate-900">
+    { questoes && questoes.map((q:any, index) => ( (index == questaoAtual) &&
+      <div key={q.id? q.id :"id"} className="w-[1728px] h-[1068px] relative bg-slate-900">
         
     <div className={`w-[910px] h-[120px] left-[461.79px] top-[141px] absolute p-[10px] transition-all duration-100 ${fade0 ? "opacity-100" : "opacity-0"}`}>
         <div className="w-[910px] h-[190px] left-0 top-0 absolute bg-slate-950 rounded-[5px] border border-sky-100 border-opacity-30 justify-center items-center gap-2 inline-flex" />
