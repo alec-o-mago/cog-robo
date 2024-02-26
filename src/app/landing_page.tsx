@@ -13,11 +13,11 @@ export default function LandingPage() {
   };
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between bg-slate-900 overflow-x-hidden overflow-y-auto">
-      <div className="w-[1728px] h-[3388px] relative bg-slate-900 bg-slate-900">
+    <main className="flex min-h-screen flex-col items-center justify-between bg-[#01073F] overflow-x-hidden overflow-y-auto w-full">
+      <div className="w-[1728px] h-[3388px] relative bg-[#01073F] bg-[#01073F]">
         <div className="w-[363.06px] h-[140px] left-[255px] top-[848px] absolute z-50">
           {/*<img className="w-[363.06px] h-[140px] left-0 top-0 absolute rounded-[5px] border border-sky-200 blur-[1px]" src="https://via.placeholder.com/363x140" />*/}
-          <div className="w-[363.06px] h-[140px] left-0 top-0 absolute rounded-[5px] border border-sky-200 absolute bg-slate-900 rounded-[3px] border border-sky-100 border-opacity-80 justify-start items-start gap-2.5 inline-flex bg-gradient-to-r from-blue-900 to-slate-900" />
+          <div className="w-[363.06px] h-[140px] left-0 top-0 absolute rounded-[5px] border border-sky-200 absolute bg-[#01073F] rounded-[3px] border border-sky-100 border-opacity-80 justify-start items-start gap-2.5 inline-flex bg-gradient-to-r from-blue-900 to-slate-900" />
           <div className="w-[175px] h-[35px] left-[100px] top-[38px] absolute text-center text-white text-[52px] font-normal font-['Roboto_Mono'] leading-normal tracking-[4.68px]">???</div>
         </div>
         <div className="w-[347.06px] h-[140px] left-[464px] top-[996px] absolute z-50">
@@ -70,14 +70,14 @@ export default function LandingPage() {
               <div className="text-white text-base font-bold font-['Roboto_Mono'] leading-normal">Enviar</div>
           </div>
       </button>
-      <div className="w-[600px] p-0 left-[564px] top-[2744px] absolute bg-slate-900 rounded-[3px] border border-sky-200 border-opacity-60 justify-start items-start gap-2.5 inline-flex">
-          <input type="text" id="nome" placeholder="Nome" className="text-white text-base font-normal font-['Roboto_Mono'] p-3 leading-10 bg-slate-900 w-full h-full" value={nome} onChange={(e)=>setNome(e.target.value)}></input>
+      <div className="w-[600px] p-0 left-[564px] top-[2744px] absolute bg-[#01073F] rounded-[3px] border border-sky-200 border-opacity-60 justify-start items-start gap-2.5 inline-flex">
+          <input type="text" id="nome" placeholder="Nome" className="text-white text-base font-normal font-['Roboto_Mono'] p-3 leading-10 bg-[#01073F] w-full h-full" value={nome} onChange={(e)=>setNome(e.target.value)}></input>
       </div>
-      <div className="w-[600px] p-0 left-[564px] top-[2824px] absolute bg-slate-900 rounded-[3px] border border-sky-200 border-opacity-60 justify-start items-start gap-2.5 inline-flex">
-          <input type="text" id="email" placeholder="Email" className="text-white text-base font-normal font-['Roboto_Mono'] p-3 leading-10 bg-slate-900 w-full h-full" value={email} onChange={(e)=>setEmail(e.target.value)}></input>
+      <div className="w-[600px] p-0 left-[564px] top-[2824px] absolute bg-[#01073F] rounded-[3px] border border-sky-200 border-opacity-60 justify-start items-start gap-2.5 inline-flex">
+          <input type="text" id="email" placeholder="Email" className="text-white text-base font-normal font-['Roboto_Mono'] p-3 leading-10 bg-[#01073F] w-full h-full" value={email} onChange={(e)=>setEmail(e.target.value)}></input>
       </div>
-      <div className="w-[600px] h-[238px] p-0 left-[564px] top-[2904px] absolute bg-slate-900 rounded-[3px] border border-sky-200 border-opacity-60 justify-start items-start gap-2.5 inline-flex align-text-top">
-          <textarea id="mensagem" placeholder="Mensagem" className="text-white text-base font-normal font-['Roboto_Mono'] p-3 leading-10 bg-slate-900 w-full h-full resize-none" value={mensagem} onChange={(e)=>setMensagem(e.target.value)}></textarea>
+      <div className="w-[600px] h-[238px] p-0 left-[564px] top-[2904px] absolute bg-[#01073F] rounded-[3px] border border-sky-200 border-opacity-60 justify-start items-start gap-2.5 inline-flex align-text-top">
+          <textarea id="mensagem" placeholder="Mensagem" className="text-white text-base font-normal font-['Roboto_Mono'] p-3 leading-10 bg-[#01073F] w-full h-full resize-none" value={mensagem} onChange={(e)=>setMensagem(e.target.value)}></textarea>
       </div>
       <div className="h-6 left-[540px] top-[3340px] absolute">
           <img className="w-[90px] h-[23px] left-0 top-[1px] absolute" src="/images/cognitivo.png"/>

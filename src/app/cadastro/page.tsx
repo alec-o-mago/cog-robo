@@ -39,29 +39,29 @@ export default function Cadastro() {
   };
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between bg-slate-900 overflow-hidden">
+    <main className="flex min-h-screen flex-col items-center justify-between bg-[#01073F] overflow-hidden">
         
-      <div className="w-[1728px] h-[1068px] relative bg-slate-900">
+      <div className="w-[1728px] h-[1068px] relative bg-[#01073F]">
       <img className="w-[1065px] h-[1026.36px] left-[773px] top-0 absolute" src="/images/lines1.png" />
       <img className="w-[1065px] h-[1026px] left-[895px] top-[-24px] absolute origin-top-left rotate-180" src="/images/lines1.png" />
       <div className="w-[600px] left-[564px] top-[173px] absolute text-center text-white text-[32px] font-bold font-['Space_Grotesk']">Boas vindas ao diagnóstico de maturidade analítica!</div>
       <img className="w-[136px] h-[35px] left-[32px] top-[39px] absolute" src="/images/cognitivo.png" />
       <div className="w-[600px] left-[564px] top-[297px] absolute text-white text-base font-normal font-['Roboto_Mono'] leading-[30px]">Você vai descobrir qual o nível de maturidade que seus negócios possuem, para que possamos indicar os próximos passos para o futuro.<br/><br/>Informe seu Nome, Email e Telefone para se conectar ao assistente.</div>
-      <div className="w-[600px] p-0 left-[565px] top-[497px] absolute bg-slate-900 rounded-[3px] border border-sky-200 border-opacity-60 justify-start items-start gap-2.5 inline-flex p">
-          <input type="text" id="nome" placeholder="Nome Completo" className="text-white text-base font-normal font-['Roboto_Mono'] p-3 leading-10 bg-slate-900 w-full h-full" value={nome} onChange={(e)=>setNome(e.target.value)}></input>
+      <div className="w-[600px] p-0 left-[565px] top-[497px] absolute bg-[#01073F] rounded-[3px] border border-sky-200 border-opacity-60 justify-start items-start gap-2.5 inline-flex p">
+          <input type="text" id="nome" placeholder="Nome Completo" className="text-white text-base font-normal font-['Roboto_Mono'] p-3 leading-10 bg-[#01073F] w-full h-full" value={nome} onChange={(e)=>setNome(e.target.value)}></input>
       </div>
-      <div className="w-[600px] p-0 left-[565px] top-[581px] absolute bg-slate-900 rounded-[3px] border border-sky-200 border-opacity-60 justify-start items-start gap-2.5 inline-flex">
-          <input type="text" id="email" placeholder="email@email.com" className="text-white text-base font-normal font-['Roboto_Mono'] p-3 leading-10 bg-slate-900 w-full h-full" value={email} onChange={(e)=>setEmail(e.target.value)}></input>
+      <div className="w-[600px] p-0 left-[565px] top-[581px] absolute bg-[#01073F] rounded-[3px] border border-sky-200 border-opacity-60 justify-start items-start gap-2.5 inline-flex">
+          <input type="text" id="email" placeholder="email@email.com" className="text-white text-base font-normal font-['Roboto_Mono'] p-3 leading-10 bg-[#01073F] w-full h-full" value={email} onChange={(e)=>setEmail(e.target.value)}></input>
       </div>
-      <div className="w-[600px] p-0 left-[565px] top-[665px] absolute bg-slate-900 rounded-[3px] border border-sky-200 border-opacity-60 justify-start items-start gap-2.5 inline-flex">
-          <input type="text" id="cpf" placeholder="(00) 00000-0000" className="text-white text-base font-normal font-['Roboto_Mono'] p-3 leading-10 bg-slate-900 w-full h-full" value={telefone} onChange={(e)=>setTelefone(e.target.value)}></input>
+      <div className="w-[600px] p-0 left-[565px] top-[665px] absolute bg-[#01073F] rounded-[3px] border border-sky-200 border-opacity-60 justify-start items-start gap-2.5 inline-flex">
+          <input type="text" id="cpf" placeholder="(00) 00000-0000" className="text-white text-base font-normal font-['Roboto_Mono'] p-3 leading-10 bg-[#01073F] w-full h-full" value={telefone} onChange={(e)=>setTelefone(e.target.value)}></input>
       </div>
       <button className="w-[260px] left-[904px] top-[771px] absolute justify-start items-start gap-4 inline-flex" onClick={handleConectar}>
           <div className="grow shrink basis-0 h-16 px-[30px] py-5 bg-gradient-to-l from-sky-600 via-blue-700 to-violet-700 rounded-[900px] shadow justify-center items-center gap-2.5 flex">
               <div className="text-white text-base font-bold font-['Roboto_Mono'] leading-normal">Conectar &gt;&gt;&gt;</div>
           </div>
       </button>
-      <button className="w-[262px] left-[563px] top-[771px] absolute border border-black justify-start items-start gap-4 inline-flex" onClick={handleSair}>
+      <button className="w-[262px] left-[563px] top-[771px] absolute border border-black justify-start items-start gap-4 inline-flex border-0" onClick={handleSair}>
           <div className="grow shrink basis-0 h-16 px-[30px] py-5 rounded-[900px] border border-white border-opacity-50 justify-center items-center gap-[15px] flex">
               <div className="text-white text-opacity-50 text-base font-bold font-['Roboto_Mono'] leading-normal">&lt;&lt;&lt; Voltar</div>
           </div>

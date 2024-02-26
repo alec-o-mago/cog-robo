@@ -22,8 +22,8 @@ export default function Diagnostico() {
 
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between bg-slate-900 overflow-y-auto">
-        <div className="w-[1728px] h-[4514px] relative bg-slate-900">
+    <main className="flex min-h-screen flex-col items-center justify-between bg-[#01073F] overflow-y-auto">
+        <div className="w-[1728px] h-[4514px] relative bg-[#01073F]">
             <img className="w-[745px] h-[911px] left-[717px] top-[1057px] absolute origin-top-left rotate-180" src="/images/lines1.png" />
             <img className="w-[1385px] h-[2305px] left-[454px] top-[880px] absolute" src="/images/lines1.png" />
             <div className="w-[1728px] h-[897px] left-0 top-[3051px] absolute bg-blue-900" />
