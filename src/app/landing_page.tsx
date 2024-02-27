@@ -14,8 +14,8 @@ export default function LandingPage() {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between bg-[#01073F] overflow-x-hidden overflow-y-auto w-full">
-      <div className="scale-90">
-        <div className="w-[1728px] h-[3388px] relative bg-[#01073F] bg-[#01073F] mt-[-250px]">
+      <div className="scale-92">
+        <div className="w-[1728px] h-[3388px] relative bg-[#01073F] bg-[#01073F] mt-[-140px]">
           <div className="w-[363.06px] h-[140px] left-[255px] top-[848px] absolute z-50">
             {/*<img className="w-[363.06px] h-[140px] left-0 top-0 absolute rounded-[5px] border border-sky-200 blur-[1px]" src="https://via.placeholder.com/363x140" />*/}
             <div className="w-[363.06px] h-[140px] left-0 top-0 absolute rounded-[5px] border border-sky-200 absolute bg-[#01073F] rounded-[3px] border border-sky-100 border-opacity-80 justify-start items-start gap-2.5 inline-flex bg-gradient-to-r from-blue-900 to-slate-900" />
